@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HITHASHREE's layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <EditText android:id="@+id/etQuestion"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Poll Question"/>
+    <EditText android:id="@+id/etOptionA"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Option A" android:layout_marginTop="12dp"/>
+    <EditText android:id="@+id/etOptionB"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Option B" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnCreate"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Create Poll" android:layout_marginTop="24dp"/>
+</LinearLayout>
+

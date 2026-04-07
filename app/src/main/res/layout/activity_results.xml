@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JEEVA's layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <TextView android:id="@+id/tvResultA"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+    <ProgressBar android:id="@+id/pbA"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:max="100"/>
+    <TextView android:id="@+id/tvResultB"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="16sp" android:layout_marginTop="16dp"/>
+    <ProgressBar android:id="@+id/pbB"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:max="100"/>
+    <Button android:id="@+id/btnReset"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Reset Poll" android:layout_marginTop="24dp"/>
+</LinearLayout>
